@@ -53,7 +53,7 @@ permalink: /faq/
     <https://github.com/swcarpentry/windows-installer>
     which also has an up-to-date description of what it actually does.
     The latest version is always available at
-    <http://files.software-carpentry.org/SWCarpentryInstaller.exe>,
+    <https://files.software-carpentry.org/SWCarpentryInstaller.exe>,
     and contributions are always welcome.
 
 ## Debugging

@@ -138,7 +138,7 @@ class InvalidCheck (KeyError):
 
 
 class DependencyError (Exception):
-    _default_url = 'http://software-carpentry.org/setup/'
+    _default_url = 'https://software-carpentry.org/setup/'
     _setup_urls = {  # (system, version, package) glob pairs
         ('*', '*', 'Cython'): 'http://docs.cython.org/src/quickstart/install.html',
         ('Linux', '*', 'EasyMercurial'): 'http://easyhg.org/download.html#download-linux',
@@ -147,55 +147,55 @@ class DependencyError (Exception):
         ('*', '*', 'EasyMercurial'): 'http://easyhg.org/download.html',
         ('*', '*', 'argparse'): 'https://pypi.python.org/pypi/argparse#installation',
         ('*', '*', 'ash'): 'http://www.in-ulm.de/~mascheck/various/ash/',
-        ('*', '*', 'bash'): 'http://www.gnu.org/software/bash/manual/html_node/Basic-Installation.html#Basic-Installation',
+        ('*', '*', 'bash'): 'https://www.gnu.org/software/bash/manual/html_node/Basic-Installation.html#Basic-Installation',
         ('Linux', '*', 'chromium'): 'http://code.google.com/p/chromium/wiki/LinuxBuildInstructions',
         ('Darwin', '*', 'chromium'): 'http://code.google.com/p/chromium/wiki/MacBuildInstructions',
         ('Windows', '*', 'chromium'): 'http://www.chromium.org/developers/how-tos/build-instructions-windows',
-        ('*', '*', 'chromium'): 'http://www.chromium.org/developers/how-tos',
-        ('Windows', '*', 'emacs'): 'http://www.gnu.org/software/emacs/windows/Installing-Emacs.html',
-        ('*', '*', 'emacs'): 'http://www.gnu.org/software/emacs/#Obtaining',
-        ('*', '*', 'firefox'): 'http://www.mozilla.org/en-US/firefox/new/',
+        ('*', '*', 'chromium'): 'https://www.chromium.org/developers/how-tos',
+        ('Windows', '*', 'emacs'): 'https://www.gnu.org/software/emacs/windows/Installing-Emacs.html',
+        ('*', '*', 'emacs'): 'https://www.gnu.org/software/emacs/#Obtaining',
+        ('*', '*', 'firefox'): 'https://www.mozilla.org/en-US/firefox/new/',
         ('Linux', '*', 'gedit'): 'http://www.linuxfromscratch.org/blfs/view/svn/gnome/gedit.html',
-        ('*', '*', 'git'): 'http://git-scm.com/downloads',
+        ('*', '*', 'git'): 'https://git-scm.com/downloads',
         ('*', '*', 'google-chrome'): 'https://www.google.com/intl/en/chrome/browser/',
         ('*', '*', 'hg'): 'http://mercurial.selenic.com/',
         ('*', '*', 'mercurial'): 'http://mercurial.selenic.com/',
-        ('*', '*', 'IPython'): 'http://ipython.org/install.html',
-        ('*', '*', 'ipython'): 'http://ipython.org/install.html',
+        ('*', '*', 'IPython'): 'https://ipython.org/install.html',
+        ('*', '*', 'ipython'): 'https://ipython.org/install.html',
         ('*', '*', 'jinja'): 'http://jinja.pocoo.org/docs/intro/#installation',
-        ('*', '*', 'kate'): 'http://kate-editor.org/get-it/',
-        ('*', '*', 'make'): 'http://www.gnu.org/software/make/',
+        ('*', '*', 'kate'): 'https://kate-editor.org/get-it/',
+        ('*', '*', 'make'): 'https://www.gnu.org/software/make/',
         ('Darwin', '*', 'matplotlib'): 'http://matplotlib.org/users/installing.html#building-on-osx',
         ('Windows', '*', 'matplotlib'): 'http://matplotlib.org/users/installing.html#installing-on-windows',
         ('*', '*', 'matplotlib'): 'http://matplotlib.org/users/installing.html#installing',
         ('*', '*', 'mayavi.mlab'): 'http://docs.enthought.com/mayavi/mayavi/installation.html',
-        ('*', '*', 'nano'): 'http://www.nano-editor.org/dist/latest/faq.html#3',
-        ('*', '*', 'networkx'): 'http://networkx.github.com/documentation/latest/install.html#installing',
+        ('*', '*', 'nano'): 'https://www.nano-editor.org/dist/latest/faq.html#3',
+        ('*', '*', 'networkx'): 'https://networkx.github.com/documentation/latest/install.html#installing',
         ('*', '*', 'nose'): 'https://nose.readthedocs.org/en/latest/#installation-and-quick-start',
         ('*', '*', 'nosetests'): 'https://nose.readthedocs.org/en/latest/#installation-and-quick-start',
-        ('*', '*', 'notepad++'): 'http://notepad-plus-plus.org/download/v6.3.html',
-        ('*', '*', 'numpy'): 'http://docs.scipy.org/doc/numpy/user/install.html',
+        ('*', '*', 'notepad++'): 'https://notepad-plus-plus.org/download/v6.3.html',
+        ('*', '*', 'numpy'): 'https://docs.scipy.org/doc/numpy/user/install.html',
         ('*', '*', 'pandas'): 'http://pandas.pydata.org/pandas-docs/stable/install.html',
         ('*', '*', 'pip'): 'http://www.pip-installer.org/en/latest/installing.html',
         ('*', '*', 'pytest'): 'http://pytest.org/latest/getting-started.html',
-        ('*', '*', 'python'): 'http://www.python.org/download/releases/2.7.3/#download',
+        ('*', '*', 'python'): 'https://www.python.org/download/releases/2.7.3/#download',
         ('*', '*', 'pyzmq'): 'https://github.com/zeromq/pyzmq/wiki/Building-and-Installing-PyZMQ',
         ('*', '*', 'py.test'): 'http://pytest.org/latest/getting-started.html',
-        ('Linux', '*', 'scipy'): 'http://www.scipy.org/Installing_SciPy/Linux',
-        ('Darwin', '*', 'scipy'): 'http://www.scipy.org/Installing_SciPy/Mac_OS_X',
-        ('Windows', '*', 'scipy'): 'http://www.scipy.org/Installing_SciPy/Windows',
-        ('*', '*', 'scipy'): 'http://www.scipy.org/Installing_SciPy',
+        ('Linux', '*', 'scipy'): 'https://www.scipy.org/Installing_SciPy/Linux',
+        ('Darwin', '*', 'scipy'): 'https://www.scipy.org/Installing_SciPy/Mac_OS_X',
+        ('Windows', '*', 'scipy'): 'https://www.scipy.org/Installing_SciPy/Windows',
+        ('*', '*', 'scipy'): 'https://www.scipy.org/Installing_SciPy',
         ('*', '*', 'setuptools'): 'https://pypi.python.org/pypi/setuptools#installation-instructions',
-        ('*', '*', 'sqlite3'): 'http://www.sqlite.org/download.html',
-        ('*', '*', 'sublime-text'): 'http://www.sublimetext.com/2',
+        ('*', '*', 'sqlite3'): 'https://www.sqlite.org/download.html',
+        ('*', '*', 'sublime-text'): 'https://www.sublimetext.com/2',
         ('*', '*', 'sympy'): 'http://docs.sympy.org/dev/install.html',
-        ('Darwin', '*', 'textmate'): 'http://macromates.com/',
+        ('Darwin', '*', 'textmate'): 'https://macromates.com/',
         ('Darwin', '*', 'textwrangler'): 'http://www.barebones.com/products/textwrangler/download.html',
         ('*', '*', 'tornado'): 'http://www.tornadoweb.org/',
         ('*', '*', 'vim'): 'http://www.vim.org/download.php',
         ('Darwin', '*', 'xcode'): 'https://developer.apple.com/xcode/',
         ('*', '*', 'xemacs'): 'http://www.us.xemacs.org/Install/',
-        ('*', '*', 'zsh'): 'http://www.zsh.org/',
+        ('*', '*', 'zsh'): 'https://www.zsh.org/',
         }
 
     def _get_message(self):
@@ -1001,7 +1001,7 @@ def print_system_info():
 def print_suggestions(instructor_fallback=True):
     print()
     print('For suggestions on installing missing packages, see')
-    print('http://software-carpentry.org/setup/')
+    print('https://software-carpentry.org/setup/')
     print('')
     print('For instructings on installing a particular package,')
     print('see the failure message for that package printed above.')
