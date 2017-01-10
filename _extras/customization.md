@@ -9,7 +9,7 @@ You must edit the `_config.yml` configuration file in the root directory of your
 and change the URLS called `workshop_repo` and `workshop_site`
 to point to the repository for the lesson and its GitHub Pages site respectively.
 If the URL for the repository is `https://github.com/gvwilson/2015-07-01-miskatonic`,
-the URL for the website will be `http://gvwilson.github.io/2015-07-01-miskatonic`.
+the URL for the website will be `https://gvwilson.github.io/2015-07-01-miskatonic`.
 
 You should not need to modify any of the other values in `_config.yml`.
 
@@ -27,7 +27,7 @@ which must define the following values in its header:
     workshop, like "Euphoric State University".  It should *not*
     include the address or other details, since this value is
     displayed in a table on the main
-    [Software Carpentry](http://software-carpentry.org) website.
+    [Software Carpentry](https://software-carpentry.org) website.
 
 *   `address` is the workshop's address (including details like the
     room number). The address should be all on one line.
@@ -45,7 +45,7 @@ which must define the following values in its header:
 
 *   `latlng` is the latitude and longitude of the workshop site (so we
     can put a pin on our map).  You can use
-    [this site](http://itouchmap.com/latlong.html) to find these
+    [this site](https://itouchmap.com/latlong.html) to find these
     values.  You can *not* put spaces around the comma separating the
     latitude from the longitude.
 

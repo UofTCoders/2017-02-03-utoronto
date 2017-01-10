@@ -246,14 +246,14 @@ or [mail us][contact].
 [design]: https://swcarpentry.github.io/workshop-template/design/
 [faq]: https://swcarpentry.github.io/workshop-template/faq/
 [github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
-[importer]: http://import.github.com/new
+[importer]: https://github.com/new/import
 [issues]: https://github.com/swcarpentry/workshop-template/issues
 [jekyll-windows]: http://jekyll-windows.juthilo.com/
 [jekyll]: https://jekyllrb.com/
 [lesson-example]: https://swcarpentry.github.io/lesson-example/
 [pyyaml]: https://pypi.python.org/pypi/PyYAML
 [ruby-install-guide]: https://www.ruby-lang.org/en/downloads/
-[ruby-installer]: http://rubyinstaller.org/
+[ruby-installer]: https://rubyinstaller.org/
 [rubygems]: https://rubygems.org/pages/download/
 [self-organized-workshop-form]: https://amy.software-carpentry.org/workshops/submit/
-[swc-site]: http://software-carpentry.org
+[swc-site]: https://software-carpentry.org
